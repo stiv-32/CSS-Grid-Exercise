@@ -1,0 +1,100 @@
+body {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(178, 229, 162);
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 230px);
+    gap: 3rem 2rem;
+    margin: 2rem 4rem;
+    grid-template-areas:
+        "header_box header_img";
+}
+.box{
+    border: 1px solid black;
+    background-color: green;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 12%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+
+}
+
+.header_box {
+    grid-area: header_box;
+    
+}
+
+header img {
+    grid-area: header_img;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 17rem);
+    gap: 3rem 2rem;
+    margin: 2rem 4rem;
+    grid-template-areas:
+    "a b c c d"
+    "e e c c f"
+    "g h i i i";
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+}
+.phto1{
+    grid-area: a;
+    border: 1px solid black;
+}
+
+.phto2{
+    grid-area: b;
+    border: 1px solid black;
+}   
+
+.phto3{
+    grid-area: c;
+    border: 1px solid black;
+}
+
+.phto4{
+    grid-area: d;
+    border: 1px solid black;
+}
+
+.phto5{
+    grid-area: e;
+    border: 1px solid black;
+}
+
+.phto6{
+    grid-area: f;
+    border: 1px solid black;
+}   
+
+.phto7{
+    grid-area: g;
+    border: 1px solid black;
+}
+
+.phto8{
+    grid-area: h;
+    border: 1px solid black;
+}
+
+.phto9{
+    grid-area: i;
+    border: 1px solid black;
+}
